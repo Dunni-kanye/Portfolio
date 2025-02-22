@@ -1,4 +1,5 @@
 import { Download } from "lucide-react";
+import { Link } from "react-router-dom";
 import Dunni from "../assets/Dunni.jpg";
 
 export default function Home() {
@@ -23,12 +24,12 @@ export default function Home() {
 
         {/* Buttons */}
         <div className="flex flex-wrap gap-4 justify-center">
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="px-6 py-3 bg-rose-500 text-white rounded-lg hover:bg-rose-600 transition shadow-md"
           >
             Contact Me
-          </a>
+          </Link>
           <a
             href="/your-cv.pdf"
             target="_blank"
