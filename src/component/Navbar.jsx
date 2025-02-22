@@ -1,40 +1,41 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
 
 export default function Navbar() {
   return (
     <div className="w-full bg-gradient-to-br from-pink-100 via-rose-200 to-purple-200 px-6 md:px-12 py-4 shadow-lg">
       <div className="container flex items-center justify-between">
-        <a href="/" className="text-2xl font-bold text-pink-600 tracking-wide">
+        <Link to="/" className="text-2xl font-bold text-pink-600 tracking-wide">
           Dunni Adekanye
-        </a>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="text-sm font-medium transition-colors hover:text-rose-600 px-3 py-2 rounded-lg"
           >
             Home
-          </a>
-          <a
-            href="/about"
+          </Link>
+          <Link
+            to="/about"
             className="text-sm font-medium transition-colors hover:text-rose-600 px-3 py-2 rounded-lg"
           >
             About
-          </a>
-          <a
-            href="/projects"
+          </Link>
+          <Link
+            to="/projects"
             className="text-sm font-medium transition-colors hover:text-rose-600 px-3 py-2 rounded-lg"
           >
             Projects
-          </a>
-          <a
-            href="/contact"
+          </Link>
+          <Link
+            to="/contact"
             className="text-sm font-medium transition-colors hover:text-rose-600 px-3 py-2 rounded-lg"
           >
             Contact
-          </a>
+          </Link>
         </nav>
 
         {/* Mobile Navigation */}
