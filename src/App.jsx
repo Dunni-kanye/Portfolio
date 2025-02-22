@@ -9,7 +9,7 @@ import Projects from "./component/Projects"
 const App = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900">
+      <div className="min-h-screen bg-gradient-to-br from-pink-100 via-rose-200 to-purple-200">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
