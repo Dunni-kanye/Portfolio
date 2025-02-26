@@ -4,7 +4,7 @@ import Dunni from "../assets/Dunni.jpg";
 
 export default function Home() {
   return (
-    <div className="container py-6 md:py-12 bg-gradient-to-br from-pink-100 via-rose-200 to-purple-200">
+    <div className="container py-6 md:py-12 bg-gradient-to-br black to-black-200">
       <section className="flex flex-col items-center justify-center gap-8 text-center md:py-12">
         {/* Profile Image */}
         <div className="relative size-40 md:size-60 rounded-full overflow-hidden border-4 border-rose-300 shadow-lg">
@@ -26,7 +26,7 @@ export default function Home() {
         <div className="flex flex-wrap gap-4 justify-center">
           <Link
             to="/contact"
-            className="px-6 py-3 bg-rose-500 text-white rounded-lg hover:bg-rose-600 transition shadow-md"
+            className="px-8 py-4 bg-rose-500 text-white font-bold rounded-lg hover:bg-rose-600 transition shadow-md"
           >
             Contact Me
           </Link>

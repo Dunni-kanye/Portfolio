@@ -9,7 +9,7 @@ import Projects from "./component/Projects"
 const App = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-pink-100 via-rose-200 to-purple-200">
+      
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -17,7 +17,6 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-      </div>
     </Router>
   );
 };

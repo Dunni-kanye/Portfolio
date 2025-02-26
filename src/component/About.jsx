@@ -1,10 +1,10 @@
 export default function About() {
   return (
-    <div className="relative bg-gradient-to-br from-pink-100 via-rose-200 to-purple-200 py-12">
+    <div className="relative bg-gradient-to-br">
       {/* Decorative background */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-pink-300/30 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-purple-300/30 rounded-full blur-3xl" />
+        <div className="absolute top-0 right-0 w-[500px] h-[500px]  rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full blur-3xl" />
       </div>
 
       <div className="container px-4 md:px-6 py-12">

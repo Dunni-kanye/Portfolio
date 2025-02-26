@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div className="relative flex flex-col min-h-screen justify-center items-center bg-gradient-to-br from-pink-100 via-rose-200 to-rose-300">
+    <div className="relative flex flex-col min-h-screen justify-center items-center bg-gradient-to-br ">
       <div className="container py-6 md:py-12 text-center flex-grow">
         <div className="flex flex-col items-center gap-8">
           {/* Header */}
@@ -20,7 +20,7 @@ export default function Contact() {
           <div className="flex flex-col gap-4 w-full max-w-md">
             <a
               href="mailto:dunniade18@gmail.com"
-              className="px-6 py-3 bg-rose-500 text-white rounded-lg flex items-center justify-center gap-2 hover:bg-rose-600 transition shadow-md"
+              className="px-6 py-3 bg-rose-700 text-white rounded-lg flex items-center justify-center gap-2 hover:bg-rose-600 transition shadow-md"
             >
               <Mail className="h-5 w-5" /> dunniade18@gmail.com
             </a>
@@ -28,7 +28,7 @@ export default function Contact() {
               href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BZldFwZBoRvOSA5lOc84jxA%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-rose-500 text-white rounded-lg flex items-center justify-center gap-2 hover:bg-rose-600 transition shadow-md"
+              className="px-6 py-3 bg-rose-700 text-white rounded-lg flex items-center justify-center gap-2 hover:bg-rose-600 transition shadow-md"
             >
               <Linkedin className="h-5 w-5" /> LinkedIn
             </a>
@@ -36,7 +36,7 @@ export default function Contact() {
               href="https://github.com/Dunni-kanye"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-rose-500 text-white rounded-lg flex items-center justify-center gap-2 hover:bg-rose-600 transition shadow-md"
+              className="px-6 py-3 bg-rose-700 text-white rounded-lg flex items-center justify-center gap-2 hover:bg-rose-600 transition shadow-md"
             >
               <Github className="h-5 w-5" /> GitHub
             </a>

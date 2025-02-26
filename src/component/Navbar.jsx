@@ -10,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="w-full bg-gradient-to-br from-pink-100 via-rose-200 to-purple-200 px-6 md:px-12 py-4 shadow-lg">
+    <div className="w-full bg-gradient-to-br rose-50px-6 md:px-12 py-4 shadow-lg">
       <div className="container flex items-center justify-between">
         <Link to="/" className="text-2xl font-bold text-pink-600 tracking-wide">
           Dunni Adekanye
